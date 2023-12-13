@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px gray solid;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.linkMenu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--link-color);
+  cursor: pointer;
+  opacity: 1;
+  transition: .2s;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &:active {
+    opacity: .9;
+  }
+}
+
+.logout {
+  fill: var(--link-color);
+
+}

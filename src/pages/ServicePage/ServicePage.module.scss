@@ -1,0 +1,33 @@
+.head {
+  text-align: center;
+}
+
+.input {
+  margin: 24px 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 8px;
+}
+
+.sidebar {
+  display: grid;
+  row-gap: 16px;
+  grid-column: auto/span 4;
+  padding-right: 16px;
+  min-height: 405px;
+  border-right: 1px solid var(--text-main-color);
+}
+
+.content {
+  grid-column: auto/span 8;
+  grid-column-start: 5;
+  padding-left: 24px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+}

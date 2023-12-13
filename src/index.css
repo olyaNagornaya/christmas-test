@@ -1,0 +1,53 @@
+@import "~normalize.css";
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+  background-color: #282c34;
+  color: #ffbe98;
+}
+
+.container {
+  max-width: 1024px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container__inner {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.content__sort {
+  margin-bottom: 40px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+:root {
+  --text-main-color: #ffbe98;
+  --text-current-color: #f58d5b;
+
+  --link-color: #61dafb;
+  --primary-red-100: red;
+}

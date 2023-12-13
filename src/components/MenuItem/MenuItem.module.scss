@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  opacity: 1;
+  transition: .2s;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.snow {
+  flex-shrink: 0;
+}
+
+
+.text {
+  color: var(--text-main-color);
+  transition: .2s;
+
+  &Current {
+    color: var(--text-current-color);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
